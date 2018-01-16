@@ -272,7 +272,7 @@
     "ssh",
     "ssh/terminal"
   ]
-  revision = "6a293f2d4b14b8e6d3f0539e383f6d0d30fce3fd"
+  revision = "c7af5bf2638a1164f2eb5467c39c6cffbd13a02e"
 
 [[projects]]
   name = "golang.org/x/net"
@@ -292,11 +292,8 @@
 
 [[projects]]
   name = "golang.org/x/sys"
-  packages = [
-    "unix",
-    "windows"
-  ]
-  revision = "1e2299c37cc91a509f1b12369872d27be0ce98a6"
+  packages = ["unix"]
+  revision = "e24f485414aeafb646f6fca458b0bf869c0880a1"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -371,6 +368,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "61bf214b4db62f0ac71f0a9f3a87745365b2a3ccad124a5fbe68223876744890"
+  inputs-digest = "850dca1b05afea52b091c716233aac6c2aeeff6d26a1ef159a34cd0f35455f1f"
   solver-name = "gps-cdcl"
   solver-version = 1
