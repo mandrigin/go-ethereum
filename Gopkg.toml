@@ -76,6 +76,6 @@
   name = "gopkg.in/urfave/cli.v1"
   version = "1.20.0"
 
-[[constraing]]
+[[constraint]]
   branch = "master"
   name = "github.com/rs/xhandler"
